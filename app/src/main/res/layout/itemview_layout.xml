@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="12%"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_textTolerance"
+        android:textSize="20sp"
+        android:layout_below="@+id/item_textFreq"
+        android:layout_toStartOf="@+id/item_imageComponant"
+        android:layout_above="@+id/seekBar4" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/resistor1"
+        android:id="@+id/item_imageComponant"
+        android:maxHeight="90dp"
+        android:maxWidth="110dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Resistor: 120 R"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_textComponants"
+        android:layout_alignStart="@+id/item_textFreq"
+        android:layout_below="@+id/item_textFreq"
+        android:layout_above="@+id/item_cap" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar4"
+
+        android:progress="5"
+        android:max="10"
+        android:layout_below="@+id/item_imageComponant"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Capacitor: 100 nF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_cap"
+        android:layout_above="@+id/seekBar4"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        tools:textSize="30sp"
+        android:text="1500HZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_textFreq"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cap"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/itemNCS_ImageView"
+        android:maxHeight="80dp"
+        android:maxWidth="120dp"
+        android:adjustViewBounds="true"
+        />
+
+    <CheckBox
+
+        android:text="1500 Ohms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemNCS_CHECKBOX"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:duplicateParentState="false"
+        android:checked="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+</RelativeLayout>

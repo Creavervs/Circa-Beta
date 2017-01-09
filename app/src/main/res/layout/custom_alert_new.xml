@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/custom_alert_new_string"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        tools:textSize="16sp"
+        android:layout_above="@+id/imageButton2"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cap"
+        android:id="@+id/imageButton3"
+        android:maxWidth="80dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:onClick= "setChooser"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Name your Set"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_above="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/resistor1"
+        android:id="@+id/imageButton2"
+        android:maxWidth="80dp"
+        android:maxHeight="100dp"
+        android:adjustViewBounds="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="204dp"
+        android:onClick= "setChooser"/>
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Circa-Beta</string>
+    <string name="select_country">Select Resistor Set</string>
+    <string-array name="menuItems">
+
+
+        <item>Set Custom Set</item>
+        <item>Allow Parallel</item>
+        <item>Help</item>
+        <item>this1</item>
+
+    </string-array>
+
+    <string name="menuItem1">New Custom Set</string>
+    <string name="menuItem2">Parallel Calculator</string>
+    <string name="menuItem3">Help</string>
+    <string name="menuItem4">Main Activity</string>
+
+    <string name="hint">Frequency</string>
+    <string name="ime_Button">DONE</string>
+
+    <string name="new1">NEW</string>
+    <string name="load">LOAD</string>
+    <string name="save">SAVE</string>
+    <string name="custom_alert_new_string">Click the Image Of the New Set You Want To Make</string>
+
+    <string-array name="TitlePageItems">
+
+        <item>Parallel Resistor Calculator</item>
+        <item>Common Circuits</item>
+        <item>Passive Filter Calculator</item>
+        <item>Active Filter Calculator</item>
+        <item>Define Component Sets</item>
+        <item>Resistor Identifier</item>
+        <item>About Us</item>
+        <item>Report A Fault</item>>
+
+
+    </string-array>
+    <string-array name="TitlePageIcons">
+
+        <item>pic1</item>
+        <item>pic2</item>
+        <item>pic3</item>
+        <item>pic1</item>
+        <item>pic2</item>>
+
+    </string-array>
+    <string-array name="ColorSetNames">
+
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Violet</item>
+        <item>Gray</item>
+        <item>White</item>>
+
+    </string-array>
+    <string-array name="ColorSetNamesband3">
+
+        <item>Black</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Orange</item>
+        <item>Yellow</item>
+        <item>Green</item>
+
+
+    </string-array>
+    <string-array name="lastBand">
+        <item>Silver</item>
+        <item>Gold</item>
+    </string-array>
+
+    <string name="passiveFilterCalculator">Cutoff Frequencies for RC circuits. Passive filters are simple and cheap to make and provide easy frequency selectability. Capacitor Error bars are included to show unideal componants used.</string>
+    <string name="bandViewer">This Activity helps identify unknown resistors by either prompting for the resistor value that is needed to be identified or by selecting the band colours to display the value</string>
+    <string name="newComponantSets">Define your own custom set of Resistors or Capacitors.Load up existing sets to dynamically add new componants to your existing set </string>
+    <string name="parallelResistors">Use a set of resistors to make a series resistor from two known parallel resistors or find the total resistance of two resistors in parallel </string>
+    <string name="aboutUs">Im here to get a job at the end of this. Find out about me through my online CV and explore what I can bring to your company </string>
+    <string name="reportAFault">Something not working quite right, Need a tool or calculator made, We want to hear it. </string>
+    <string name="Active_Filters_Description">Active Low pass filters consisting of 1st order through to 4th orde,Voltage Controlled Voltage Source(VCVS),State Variable Bandpass Filter, Biquad Filter and other variations of Sallen-Key topology</string>
+    <string name="Common_Circuit_Titlepage_Description">A collection of common circuits that is encountered such as Voltage Divider,Current Divider, Low Pass Filter,High Pass filters etc.</string>
+
+    <string-array name="FilterPageItems">
+
+        <item>Active Low Pass Filter</item>
+        <item>Active High Pass Filter</item>
+        <item>Active Low Pass Second Order Filter</item>
+        <item>Active High Pass Second Order Filter</item>
+
+    </string-array>
+
+    <string name="Active_LPF_description">These filters are used over Passive filters as the output is independant of the load driven. The ratio of the resistors on the inverting output provides voltage gain of the filter</string>
+    <string name="Active_HPF_description">Active High pass filters are superior to passive filters but only up to 500khz. Generally they are made with capacitors but may also be constructed with inductors. Inductors tend not to be used to the size, cost and tend not to perform as well (Less ideal).</string>
+    <string-array name="Common_Circuits">
+
+        <item>Voltage Divider</item>
+        <item>Current Divider</item>
+        <item>Low Pass Filter</item>
+        <item>High Pass Filter</item>
+
+    </string-array>
+
+    <string name="Voltage_Divider_description">These filters are used over Passive filters as the output is independant of the load driven. The ratio of the resistors on the inverting output provides voltage gain of the filter</string>
+    <string name="Current_Divider_description">These filters are used over Passive filters as the output is independant of the load driven. The ratio of the resistors on the inverting output provides voltage gain of the filter</string>
+    <string name="Low_Pass_description">These filters are used over Passive filters as the output is independant of the load driven. The ratio of the resistors on the inverting output provides voltage gain of the filter</string>
+    <string name="High_Pass_description">These filters are used over Passive filters as the output is independant of the load driven. The ratio of the resistors on the inverting output provides voltage gain of the filter</string>
+
+</resources>
